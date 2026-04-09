@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow-x: hidden;
+}
+.text {
+    color: white;
+}
+.thumbnail {
+    display: flex;
+    flex-direction: column;
+}
