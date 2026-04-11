@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" type="image/png" sizes="32x32" href="media/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="media/favicons/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="180x180" href="media/favicons/apple-touch-icon.png">
+    </head>
+    <body>
+        <div style="display: flex; align-items:center;">
+            <img src="media/animatedlogo.gif" height="150px" width="150px">
+            <div style="border-left: 2px dotted #458ADC; height: 100px; margin: 0 20px;"></div>
+            <h1 style="font-size:50px; color:#FFF4D0;">tyler dufalla</h1>
+        </div>
+        <a href="index.html"><h4 class="text"><- back</h4></a>
+        <h1 class="text">contact</h1>
+        <p class="text">
+            as i strive to build my portfolio as a photographer, i’d love to take photos at your event or set up a private photoshoot. if you’re interested, please contact me using the form below and i will be in touch with you as soon as possible.
+        </p>
+        <p class="text">
+            if you have any other general requests or questions that are <em>not</em> photography related, select "other" in your request type.
+        </p>
+        <form action="https://formsubmit.co/dufalla@icloud.com" method="POST">
+            <input type="text" name="name" placeholder="name" required style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;">
+            <input type="email" name="email" placeholder="email" required style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;">
+            <h4 class="text">request type</h4>
+            <input type="radio" id="photoshoot" name="request" value="photoshoot" style="margin-bottom: 20px;"">
+            <label for="photoshoot" class="text">photoshoot</label>
+            <input type="radio" id="other" name="request" value="other" style="margin-bottom: 20px;">
+            <label for="other" class="text">other</label>
+            <textarea name="message" placeholder="your message" required style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+            <button type="submit" style="background-color: #FFF4D0; color: black; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">Send</button>
+        </form>
+    </body>
+</html>
