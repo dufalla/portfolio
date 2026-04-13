@@ -9,6 +9,15 @@ body {
     overflow-x: hidden;
     font-family: 'Arial', sans-serif;
 }
+.center-container {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20x;
+}
 .text {
     color: white;
 }
