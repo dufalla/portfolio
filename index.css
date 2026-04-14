@@ -43,3 +43,96 @@ body {
 .fa:hover {
     opacity: 0.7;
 }
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 0 15px;
+    }
+    
+    /* Keep profile box fixed size */
+    body > div:nth-of-type(2) > div {
+        width: 200px !important;
+        flex-shrink: 0;
+    }
+    
+    /* Collection thumbnails - make responsive */
+    .collection img {
+        height: 150px !important;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .collection {
+        gap: 15px;
+    }
+    
+    /* Text sizes */
+    h1 {
+        font-size: 28px;
+    }
+    
+    h4 {
+        font-size: 16px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    
+    .fa {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 0 10px;
+    }
+    
+    body > div:first-of-type img {
+        height: 80px !important;
+        width: 80px !important;
+    }
+    
+    body > div:first-of-type h1 {
+        font-size: 24px !important;
+    }
+    
+    bodKeep profile box fixed size and square */
+    body > div:nth-of-type(2) > div {
+        width: 150px !important;
+        height: 150px !important;
+        flex-shrink: 0;
+    }
+    
+    /* Profile section */
+    body > div:nth-of-type(2) {
+        flex-direction: column;
+        gap: 15px;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    body > div:nth-of-type(2) > div {
+        width: 100% !important;
+    }
+    
+    body > div:nth-of-type(2) img {
+        margin-left: 0 !important;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .collection img {
+        height: 120px !important;
+    }
+    
+    h1 {
+        font-size: 22px;
+    }
+    
+    p {
+        font-size: 13px;
+    }
+}
